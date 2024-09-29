@@ -1,0 +1,48 @@
+.header {
+    font-size: 2.5rem;
+    padding: 1rem;
+    background-color: #4f58df;
+    color: aliceblue;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main {
+    flex: 1;
+    padding: 1rem;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+    grid-gap: 1rem;
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.detailsDescription {
+    margin-top: 20px;
+}
+
+.posts {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0/100), 0 10px 13px 0 rgb(0,0,0 / 11%);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    padding: 0.5rem 0.25rem;
+
+}

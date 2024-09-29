@@ -1,0 +1,26 @@
+.header {
+  background-color: #4f58df;
+  padding: 1rem 0;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Optional: Add hover effect */
+.logo:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
